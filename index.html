@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>TinyApp</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
+</head>
+<body>
+    <div id="hello-seajs" class="seaJsContent">
+    	SeaJs框架+CSS3使用实例
+    </div>
+    <script src="./assets/scripts/seajs/sea.js"></script>
+    <script>
+    	seajs.config({
+    		base:"./assets/scripts/",
+    		alias:{
+    			"jquery":"jquery/jquery.js"
+    		}
+    	});
+    	seajs.use("application/application");
+    </script>
+</body>
+</html>
