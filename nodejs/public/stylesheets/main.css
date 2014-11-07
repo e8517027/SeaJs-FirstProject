@@ -1,0 +1,24 @@
+﻿.head {
+    height:29px;
+    background:#efefef;
+    border-bottom:1px solid #d7d7d7;
+    z-index:6;
+}
+.topnav {
+    display:block;
+    width:100%;
+    height:30px;
+    margin:auto;
+    font-family:"宋体";
+    color:#777;
+    font-size:12px;
+}
+.topnav .left {
+    float:left;
+    line-height:30px;
+    height:30px;
+    overflow:hidden;
+    }
+    .topnav .right {
+        float:right;
+    }
