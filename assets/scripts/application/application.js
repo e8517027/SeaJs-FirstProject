@@ -1,6 +1,5 @@
 define(function(require,exports,module)	{
 
-		var a=require('jquery');
 	    var RandomColor=require('./random');//引用随机库
 		
 		var random=new RandomColor('#hello-seajs');
