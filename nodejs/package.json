@@ -1,13 +1,14 @@
 {
-  "name": "ExpressApp1",
+  "name": "MyFirstWeb",
   "version": "0.0.0",
-  "description": "ExpressApp1",
+  "description": "MyFirstWeb",
   "main": "app.js",
   "author": {
     "name": "Administrator",
     "email": ""
   },
   "dependencies": {
+    "ejs": "^1.0.0",
     "express": "3.4.4",
     "jade": "*",
     "stylus": "*"
